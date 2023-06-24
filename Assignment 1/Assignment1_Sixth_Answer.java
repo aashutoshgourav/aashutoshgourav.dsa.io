@@ -13,7 +13,7 @@ class Duplicate {
     }
 
     public static void main(String[] args) {
-        int[] input = {1, 2, 3, 4, 5};
+        int[] input = {1, 2,3,1};
         boolean hasDuplicates = containsDuplicate(input);
         System.out.println("Array contains duplicates: " + hasDuplicates);
     }
